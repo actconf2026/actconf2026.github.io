@@ -46,7 +46,7 @@ body { padding-top: 70px;  }
 
 #cfpmain { /*margin-left: 40px; margin-right: 40px;*/ }
 #cfpmain p, #cfpmain h4 { /*margin-left: 20px;*/ } #cfpmain blockquote { margin-left: 20px; font-variant: italic;}
-h1,h2,h3,h4 {  color:  #2C672C /*#006a27*/; } 
+h1,h2,h3,h4 {  color:  #FF6347 /*#006a27*/; } 
 .table-sess {
     width: 20%;
 }
