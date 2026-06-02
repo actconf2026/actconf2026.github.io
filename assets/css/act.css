@@ -86,7 +86,7 @@ h1,h2,h3,h4 {  color:  #e34d32 /*#006a27*/; }
   width: 300px;
   background: #f9f9f9;
 }
-.pricing-section h3 { color: #333; margin-top: 0; }
+.pricing-section h4 { color: #333; margin-top: 0; }
 .pricing-section ul { list-style: none; padding: 0; }
 .pricing-card li { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
 
