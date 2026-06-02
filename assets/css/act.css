@@ -71,3 +71,26 @@ h1,h2,h3,h4 {  color:  #e34d32 /*#006a27*/; }
 #navbar-top h1{
     margin:0px;
 }
+
+.pricing-section { padding: 40px 20px; font-family: sans-serif; }
+.pricing-grid { 
+  display: flex; 
+  gap: 20px; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+.pricing-card { 
+  border: 1px solid #ddd; 
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 300px;
+  background: #f9f9f9;
+}
+.pricing-card h3 { color: #333; margin-top: 0; }
+.pricing-card ul { list-style: none; padding: 0; }
+.pricing-card li { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+  .pricing-card { width: 100%; }
+}
