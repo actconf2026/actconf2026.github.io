@@ -8,6 +8,8 @@ layout: act
 
 <h1>Accepted papers and talks</h1>
 
+<!-- For Proceedings: 37, 51, 72, 27, 58, 97, 62, 60, 15, 13, 76 -->
+
 <style>
   .paper-list li {
     margin-bottom: 12px;
@@ -29,6 +31,224 @@ layout: act
     outline: none;
   }
 </style>
+
+<h3> Proceedings </h3>
+
+<ul class="paper-list">
+  <li>
+    <details>
+      <summary><span class="paper-title">A Rigid Category of DNA Secondary Structures</span> 
+        Andrés Ortiz-Muñoz [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_37.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">We construct a strict pivotal monoidal category $\mathcal{D}_{\mathrm{DNA}}$ whose objects are DNA sequences (words over $\{A,C,G,T\}$) and whose morphisms are isotopy classes of typed noncrossing planar matchings---composed of through-strands and Watson--Crick-typed arcs---in a rectangle with source and target boundaries. The dual of a sequence is its reverse complement, evaluation and coevaluation are canonical duplex pairings, and the snake identities hold by planar isotopy. A bending correspondence identifies each morphism $x \to y$ with a secondary structure on the combined word $x^\vee y$; in particular, the generalized elements $\epsilon \to w$ are exactly the non-pseudoknotted secondary structures on~$w$. Composition, viewed in this straightened picture, is computed by a \emph{zip-and-transfer} operation on complementary interfaces---a combinatorial rearrangement of base-pair connectivity of which toehold-mediated strand displacement is a kinetically specific instance. Because $\mathcal{D}_{\mathrm{DNA}}$ is rigid monoidal, it shares the categorical backbone of pregroup grammars and the DisCoCat framework for compositional semantics: a strong monoidal functor from a grammatical category to $\mathcal{D}_{\mathrm{DNA}}$ maps grammatical reductions to Watson--Crick base pairing and sentence meanings to secondary structures. We describe this functor and discuss connections to algorithmic self-assembly, composable strand-displacement circuits, and constructive dynamical systems.</div>
+    </details>
+  </li>
+
+    <li>
+    <details>
+      <summary><span class="paper-title">
+        Temporal sheaf theory for reconciling temporal complexity within public health modeling</span> 
+        Nelson Niu, Nathaniel Osgood, Priyaa Varshinee Srinivasan and Jacob Zelko 
+        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_51.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">In this paper, we develop temporal sheaf theory with
+applications to public health modeling. We explicate
+discrete temporal sheaves in terms of a category of
+discrete subunit-intervals Z. We characterize the
+topos-theoretic properties of the category [Z^op, [C, Set]]
+of discrete [C, Set]-narratives for small categories C and
+interpret the logical structure of its subobject classifier
+to describe temporal properties of data. When C is the
+walking parallel arrows category, [C, Set] is the category
+of directed graphs, making these discrete [C,
+Set]-narratives dynamic analogues of graphs, among which we
+find dynamic analogues of paths and cliques. We ground the
+formulations advanced here with concrete implementations in
+Catlab.jl. We conclude our paper by discussing applications
+of temporal sheaf theory to temporally complex public
+health concerns. In particular, for public health
+agent-based models (ABMs), it is crucial to reason about
+which individuals persist in a population over time
+intervals or are present within a time period, how
+individuals qualify for observation, and when individuals
+simultaneously experience combinations of conditions. We
+discuss how temporal paths can produce insights for
+contact-tracing and how using temporal sheaves can both
+improve the understanding of communicable diseases and
+reasoning about individual-level, public health data or
+ABM-generated data.</div>
+  </details>
+</li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">Information Leakage in Resource Theories</span> 
+        Niels Voorneveld, Alessandro Di Giorgio and Pawel Sobocinski 
+        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_72.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">We introduce abelian framed bicategories, which are
+particular framed bicategories that are locally abelian,
+and show that they are suitable for developing homology and
+cohomology theories for directed structures. This means in
+particular that similar exact sequences as the relative
+homology and Mayer-Vietoris long exact sequences can be
+shown to hold. Also, for closed monoidal abelian framed
+bicategories, Künneth theorem holds as well. Finally, we
+prove embedding theorems similar to the Gabriel and
+Freyd-Mitchell theorems, for particular Abelian framed
+bicategories, allowing to see those as bicategories of
+bimodules over algebras. This naturally links to the
+original motivation of this work, which was to generalize
+directed homology developed in the Abelian framed
+bicategory of bimodules over (path) algebras. Arxiv link: https://arxiv.org/abs/2602.04425</div>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">Combinatorial manifolds and Kleene's theorem, homotopically</span> 
+        Yorgo Chamoun [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_27.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">We give a general method to build categories of combinatorial manifolds, i.e. categories of combinatorial objects satisfying some local property at every ``point'', as coreflective subcategories of categories of relational presheaves. To do this, we crucially rely on unique factorization systems, and we can interpet our technique as a way of building a model category whose cofibrant objects are exactly the combinatorial manifolds. We then illustrate the usefulness of this point of view by two applications. First we build a category of euclidean precubical sets, i.e. precubical sets that locally look like a grid (of some fixed dimension), and show that it is coreflective in the category of relational precubical sets. This is the combinatorial analog of eulidean locally ordered spaces and the blowup construction from directed topology. Secondly, we show how to give an abstract proof of Kleene's theorem from automata theory by defining ``manifold automata'' that behave well with respect to concatenation.</div>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">A Category-theoretic Reconstruction of Logical Expressivism</span> 
+        Kristopher Brown [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_58.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">In the philosophical tradition of 'analytic pragmatism',
+which attempts to account for linguistic meanings in terms
+of their practices of use, logical expressivism is a theory
+which offers a distinct perspective on logic. We shed light
+on a recent formalization of logical expressivism by
+reconstructing its formal semantics through the use of
+vocabulary of universal constructions in category theory.
+This reveals similarities with categorical logic: there is
+a focus on internalizing judgment structure, and
+connectives arise from adjunctions.</div>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">Unitary, inner product, and dagger categories</span> 
+        Robin Cockett, Durgesh Kumar and Priyaa Varshinee Srinivasan 
+        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_97.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">This article provides an alternate characterization of dagger categories, which are central to the study of categorical quantum mechanics, in terms of inner product categories. An inner product category is an "achiral involutive" category with an inner product combinator. Inner product categories are, in turn, precisely the same as unitary categories, which are a weaker form of dagger categories. In unitary categories, there is an isomorphism between an object and its dagger, instead of the identity function as in the case of dagger categories. Every unitary category is equipped with a global inner product structure, which allows one to strictify the involutive structure on the unitary category to obtain a dagger category, making unitary categories 2-categorically equivalent to dagger categories.  By regarding the inner product as an abstract metric on an (achiral) involutive category, one can define metric-preserving maps (isometries) in inner product categories, and also develop other notions of special maps --- unitary, Hermitian, positive, and normal maps --- in this setting.</div>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary><span class="paper-title">Compositionality of Lyapunov functions via assume-guarantee reasoning</span> 
+        David Jaz Myers and Matteo Capucci [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_62.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">
+        <p>Assume-guarantee reasoning is a technique for compositional
+model checking in which system specifications are checked
+under certain assumptions on system parameters or inputs,
+and provide guarantees on observations of system state.
+ We present a categorical framework for assume-guarantee
+ reasoning for safety problems by viewing systems as
+ \emph{lenses}, following our earlier work on the
+ compositionality of generalized Moore machines.
+ Generalized Moore machines include ordinary Moore
+ machines, partially observable Markov (decision)
+ processes, and systems of parameterized ODEs (control
+ systems); our framework gives assume-guarantee reasoning
+ specially adapted to each of these cases. In particular,
+ we give a novel formulation of assume-guarantee reasoning
+ for \emph{(local) input-to-state stability} ((L)ISS)
+ Lyapunov functions on systems of parameterized ODEs.</p>
+
+ <p>Our framework is categorically natural and
+ straightforwardly compositional. A flavor of generalized
+ Moore machine is determined by a \emph{tangency}: a
+ fibration with a section. We show that symmetric monoidal
+ loose right modules of assume-guarantee certified
+ generalized Moore machines over symmetric monoidal double
+ categories of certified wiring diagrams can be constructed
+ 2-functorially from fibrations internal to the 2-category
+ of tangencies.</p></div>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">All Hail Kleisli: An Enriched Yoneda Embedding of 
+        Indexed Modalities into Indexed Kleisli Categories</span> Peng Fu and Kohei Kishida 
+        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_60.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract"> When formalizing programs, data, processes, effects, etc.,
+in category
+theory or type theory, it may turn out crucial to keep
+track of
+different modalities of morphisms or terms: e.g., some
+quantum
+circuits may be harder to classically simulate than others
+because
+they involve certain gates; or, for information security,
+different
+data may have different levels of security. Such a family of
+modalities naturally gives rise to a family of different
+categories
+that correspond to the different modalities. This paper
+provides a
+theorem stating that, once we have such a family of
+categories, we
+can embed them into a single category so that the
+modalities can be
+modelled by a family of monads. After reviewing several
+examples of
+families of modalities, we illustrate a construction based
+on enriched
+category theory that, given a modality family of this sort,
+the
+indexed category arising from this family can be
+Yoneda-embedded into
+an indexed Kleisli category. We demonstrate the utility of
+this
+construction by defining a generic lambda calculus of a
+modality
+family and showing how to interpret it in the constructed
+indexed
+Kleisli category. </div>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">Definable Markov Categories</span> Paul Wang [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_15.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">We construct two Markov categories whose morphisms are definable in o-minimal structures. The probabilistic category DefStoch(R_{an}), over the structure of globally subanalytic sets, has morphisms given by Markov kernels with constructible densities on definable latent spaces; composition corresponds to a fibre-product construction on latent spaces, and the Cluckers--Miller stability theorem ensures that integration against presented kernels preserves the function class. This Markov category doesn't have all conditionals, but is positive and causal, as a subcategory of BorelStoch. The possibilistic category DefRel_+(M), over an arbitrary o-minimal structure M, has morphisms given by definable total relations; it has conditionals, thus positivity and causality. Both constructions exploit model-theoretic tameness --- cell decomposition and closure under integration (probabilistic) or projection (possibilistic) --- and we isolate four hypotheses on an abstract function class from which the categorical structure follows.</div>
+    </details>
+  </li>
+
+  <li>
+    <details>
+      <summary><span class="paper-title">Snoc Trees</span> Neil Ghani, Fredrik Nordvall Forsberg and Samuel Fish [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_13.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">We introduce snoc-trees which generalise snoc-lists. We uncover their categorical and computational structure using both functorial and container-theoretic approaches and show the power of their associated fold operator. We related snoc-trees to the usual trees arising from initial algebra semantics. We demonstrate the use of snoc trees via an example arising from sampling from a probability distribution over an inductive type.</div>
+    </details>
+  </li>
+
+
+  <li>
+    <details>
+      <summary><span class="paper-title">Measuring Univalence and Its Failure in Homotopy Type 
+        Theory via Synthetic Cohomology</span> Yoshihiro Maruyama and Ryo Nasu 
+        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_76.pdf'>pdf</a>]</summary>
+      <div class="paper-abstract">We study how a chosen universe or type family in homotopy
+type theory can (fail to) satisfy univalence by means of
+synthetic cohomology. For each type family, we define a
+defect space from the map that compares equality of codes
+with equivalence of the corresponding types, and we use
+synthetic cohomology of this space to build invariants.
+These invariants vanish for univalent families, completely
+detect triviality in truncated defect spaces, and can be
+computed in several concrete examples. We show that the
+construction extends to Tarski universes and captures
+information that ordinary cohomology of the fibers does not
+detect.</div>
+    </details>
+  </li>
+
+
+</ul>
+
+<h3> Talks </h3>
 
 <ul class="paper-list">
   <li>
@@ -89,24 +309,14 @@ semi-causality and semi- localisability for factor subsystems extends to all
 verification based on polynomial functors in dependent type theory. In this framework, polynomial functors serve as program interfaces, Kleisli morphisms for the free monad monad serve as implementations, and dependent polynomials encode pre/postcondition specifications. We show that implementations and their verifications compose via wiring diagrams, and that Mealy machines provide a compositional coalgebraic operational semantics. We identify the abstract categorical structure underlying this compositionality as a monoidal functor from specifications to interfaces with a compatible monoidal natural transformation of lax monoidal presheaves; this opens the door to generalizations to other categories, monoidal products, etc., including settings for concurrency and relational verification, which we sketch. As a proof-of-concept, the entire framework has been formalized in Agda.</div>
     </details>
   </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">Snoc Trees</span> Neil Ghani, Fredrik Nordvall Forsberg and Samuel Fish [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_13.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">We introduce snoc-trees which generalise snoc-lists. We uncover their categorical and computational structure using both functorial and container-theoretic approaches and show the power of their associated fold operator. We related snoc-trees to the usual trees arising from initial algebra semantics. We demonstrate the use of snoc trees via an example arising from sampling from a probability distribution over an inductive type.</div>
-    </details>
-  </li>
+
   <li>
     <details>
       <summary><span class="paper-title">Separation and Gluing of Explanations on Sites of Dynamical Systems</span> Paul Wang [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_14.pdf'>pdf</a>]</summary>
       <div class="paper-abstract">We construct a Grothendieck site whose objects are Mealy machines over definable sets in an o-minimal structure and whose coverings are jointly surjective families of definable open immersions. On this site, we define presheaves of explanations---systems equipped with an interpretable interface, parameterised by a ``judge.'' We prove that the behavioral presheaf (quotienting by observable output equivalence) is separated: a global explanation is determined by its local restrictions. We show that gluing fails in general---locally consistent explanations need not assemble globally---and give, for stateless explanatory systems of the restricted-interface presheaf, a necessary and sufficient topological condition for the sheaf property in terms of robust disconnection of fibers of the judge.</div>
     </details>
   </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">Definable Markov Categories</span> Paul Wang [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_15.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">We construct two Markov categories whose morphisms are definable in o-minimal structures. The probabilistic category DefStoch(R_{an}), over the structure of globally subanalytic sets, has morphisms given by Markov kernels with constructible densities on definable latent spaces; composition corresponds to a fibre-product construction on latent spaces, and the Cluckers--Miller stability theorem ensures that integration against presented kernels preserves the function class. This Markov category doesn't have all conditionals, but is positive and causal, as a subcategory of BorelStoch. The possibilistic category DefRel_+(M), over an arbitrary o-minimal structure M, has morphisms given by definable total relations; it has conditionals, thus positivity and causality. Both constructions exploit model-theoretic tameness --- cell decomposition and closure under integration (probabilistic) or projection (possibilistic) --- and we isolate four hypotheses on an abstract function class from which the categorical structure follows.</div>
-    </details>
-  </li>
+
   <li>
     <details>
       <summary><span class="paper-title">A Simple Categorical Calculus of Interacting Processes (Talk Only)</span> Chad Nester and Niels Voorneveld [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_21.pdf'>pdf</a>]</summary>
@@ -132,13 +342,6 @@ verification based on polynomial functors in dependent type theory. In this fram
       <summary><span class="paper-title">Causal and Compositional Abstraction</span> 
         Robin Lorenz and Sean Tull [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_26.pdf'>pdf</a>]</summary>
       <div class="paper-abstract">Abstracting from a low level to a more explanatory high level of description, and ideally while preserving causal structure, is fundamental to scientific practice, to causal inference problems, and to robust, efficient and interpretable AI. We present a general account of abstractions between low and high level models as natural transformations, focusing on the case of causal models. This provides a new formalisation of causal abstraction, unifying several notions in the literature, including constructive causal abstraction, Q-τ consistency, abstractions based on interchange interventions, and `distributed' causal abstractions. Our approach is formalised categorically using the general notion of a compositional model with a given set of queries and semantics in a monoidal, cd- or Markov category; causal models and their queries such as interventions being special cases. We identify two basic notions of abstraction: downward abstractions mapping queries from high to low level; and upward abstractions, mapping concrete queries such as Do-interventions from low to high. Although usually presented as the latter, we show how common causal abstractions may, more fundamentally, be understood in terms of the former. Our approach also leads us to consider a new stronger notion of `component-level' abstraction, applying to the individual components of a model. In particular, this yields a strengthened form of constructive causal abstraction at the mechanism-level, for which we prove characterisation results. Finally, we show that abstraction can be generalised to further compositional models, including those with a quantum semantics implemented by quantum circuits, and we take first steps in exploring abstractions between quantum compositional circuit models and high-level classical causal models as a means to explainable quantum AI. This is a non-proceedings submission, with the full pre-print available at: https://arxiv.org/abs/2602.16612</div>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">Combinatorial manifolds and Kleene's theorem, homotopically</span> 
-        Yorgo Chamoun [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_27.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">We give a general method to build categories of combinatorial manifolds, i.e. categories of combinatorial objects satisfying some local property at every ``point'', as coreflective subcategories of categories of relational presheaves. To do this, we crucially rely on unique factorization systems, and we can interpet our technique as a way of building a model category whose cofibrant objects are exactly the combinatorial manifolds. We then illustrate the usefulness of this point of view by two applications. First we build a category of euclidean precubical sets, i.e. precubical sets that locally look like a grid (of some fixed dimension), and show that it is coreflective in the category of relational precubical sets. This is the combinatorial analog of eulidean locally ordered spaces and the blowup construction from directed topology. Secondly, we show how to give an abstract proof of Kleene's theorem from automata theory by defining ``manifold automata'' that behave well with respect to concatenation.</div>
     </details>
   </li>
   <li>
@@ -169,13 +372,6 @@ verification based on polynomial functors in dependent type theory. In this fram
       <summary><span class="paper-title">Monoidal structures for hypergraphs and transpositionality</span> 
         Axel Osmond [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_35.pdf'>pdf</a>]</summary>
       <div class="paper-abstract">We provide a new approach to analogy calculus using algebraic structures on hypergraphs. Defining hypergraphs as spans of sets, the category of hypergraphs form a presheaf topos. It is moreover endowed with several monoidal structures, in particular a funny tensor product, as well as a dual straight tensor product related to it by a De-Morgan law through hypergraph duality. We prove those monoidal structures to be symmetric and closed, and explain how links in the associated homgraphs provide notions of 2-cells in the category of hypergraphs. Generalizing operations implicitly present in the funny tensor product of hypergraphs, we introduce the notion of transposition law, an algebraic operation that allows to transpose links and nodes along other links. This operation can be enhanced with further axioms making it a multivalued generalization of the analogy relations in Antic proportoids. We discuss monadicity of the resulting category of hypergraphs with transposition law over the category of hypergraphs, and explain why the corresponding forgetful functor is finitary. We also show that it inherits the funny tensor product of hypergraphs. Finally we provide a few implementations of analogy calculus in this framework and discuss the relation with the notion of commutation in linguistic.</div>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">A Rigid Category of DNA Secondary Structures</span> 
-        Andrés Ortiz-Muñoz [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_37.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">We construct a strict pivotal monoidal category $\mathcal{D}_{\mathrm{DNA}}$ whose objects are DNA sequences (words over $\{A,C,G,T\}$) and whose morphisms are isotopy classes of typed noncrossing planar matchings---composed of through-strands and Watson--Crick-typed arcs---in a rectangle with source and target boundaries. The dual of a sequence is its reverse complement, evaluation and coevaluation are canonical duplex pairings, and the snake identities hold by planar isotopy. A bending correspondence identifies each morphism $x \to y$ with a secondary structure on the combined word $x^\vee y$; in particular, the generalized elements $\epsilon \to w$ are exactly the non-pseudoknotted secondary structures on~$w$. Composition, viewed in this straightened picture, is computed by a \emph{zip-and-transfer} operation on complementary interfaces---a combinatorial rearrangement of base-pair connectivity of which toehold-mediated strand displacement is a kinetically specific instance. Because $\mathcal{D}_{\mathrm{DNA}}$ is rigid monoidal, it shares the categorical backbone of pregroup grammars and the DisCoCat framework for compositional semantics: a strong monoidal functor from a grammatical category to $\mathcal{D}_{\mathrm{DNA}}$ maps grammatical reductions to Watson--Crick base pairing and sentence meanings to secondary structures. We describe this functor and discuss connections to algorithmic self-assembly, composable strand-displacement circuits, and constructive dynamical systems.</div>
     </details>
   </li>
   <li>
@@ -300,40 +496,6 @@ we can study their interaction. This leads to a language of
 pattern matching for adhesive categories of graphs which we
 propose as a new construct for programming and reasoning
 with graphical calculi.</div>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">
-        Temporal sheaf theory for reconciling temporal complexity within public health modeling</span> 
-        Nelson Niu, Nathaniel Osgood, Priyaa Varshinee Srinivasan and Jacob Zelko 
-        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_51.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">In this paper, we develop temporal sheaf theory with
-applications to public health modeling. We explicate
-discrete temporal sheaves in terms of a category of
-discrete subunit-intervals Z. We characterize the
-topos-theoretic properties of the category [Z^op, [C, Set]]
-of discrete [C, Set]-narratives for small categories C and
-interpret the logical structure of its subobject classifier
-to describe temporal properties of data. When C is the
-walking parallel arrows category, [C, Set] is the category
-of directed graphs, making these discrete [C,
-Set]-narratives dynamic analogues of graphs, among which we
-find dynamic analogues of paths and cliques. We ground the
-formulations advanced here with concrete implementations in
-Catlab.jl. We conclude our paper by discussing applications
-of temporal sheaf theory to temporally complex public
-health concerns. In particular, for public health
-agent-based models (ABMs), it is crucial to reason about
-which individuals persist in a population over time
-intervals or are present within a time period, how
-individuals qualify for observation, and when individuals
-simultaneously experience combinations of conditions. We
-discuss how temporal paths can produce insights for
-contact-tracing and how using temporal sheaves can both
-improve the understanding of communicable diseases and
-reasoning about individual-level, public health data or
-ABM-generated data.</div>
     </details>
   </li>
   <li>
@@ -518,22 +680,6 @@ symplectic algebra.</div>
   </li>
   <li>
     <details>
-      <summary><span class="paper-title">A Category-theoretic Reconstruction of Logical Expressivism</span> 
-        Kristopher Brown [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_58.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">In the philosophical tradition of 'analytic pragmatism',
-which attempts to account for linguistic meanings in terms
-of their practices of use, logical expressivism is a theory
-which offers a distinct perspective on logic. We shed light
-on a recent formalization of logical expressivism by
-reconstructing its formal semantics through the use of
-vocabulary of universal constructions in category theory.
-This reveals similarities with categorical logic: there is
-a focus on internalizing judgment structure, and
-connectives arise from adjunctions.</div>
-    </details>
-  </li>
-  <li>
-    <details>
       <summary><span class="paper-title">Sequential Monte Carlo in String Diagrams (Talk Proposal)</span> 
         Marius Furter [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_59.pdf'>pdf</a>]</summary>
       <div class="paper-abstract">
@@ -560,47 +706,7 @@ Julia and PyTorch and enables intuitive reasoning about
 programs.</p></div>
     </details>
   </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">All Hail Kleisli: An Enriched Yoneda Embedding of 
-        Indexed Modalities into Indexed Kleisli Categories</span> Peng Fu and Kohei Kishida 
-        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_60.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract"> When formalizing programs, data, processes, effects, etc.,
-in category
-theory or type theory, it may turn out crucial to keep
-track of
-different modalities of morphisms or terms: e.g., some
-quantum
-circuits may be harder to classically simulate than others
-because
-they involve certain gates; or, for information security,
-different
-data may have different levels of security. Such a family of
-modalities naturally gives rise to a family of different
-categories
-that correspond to the different modalities. This paper
-provides a
-theorem stating that, once we have such a family of
-categories, we
-can embed them into a single category so that the
-modalities can be
-modelled by a family of monads. After reviewing several
-examples of
-families of modalities, we illustrate a construction based
-on enriched
-category theory that, given a modality family of this sort,
-the
-indexed category arising from this family can be
-Yoneda-embedded into
-an indexed Kleisli category. We demonstrate the utility of
-this
-construction by defining a generic lambda calculus of a
-modality
-family and showing how to interpret it in the constructed
-indexed
-Kleisli category. </div>
-    </details>
-  </li>
+
   <li>
     <details>
       <summary><span class="paper-title">TensorType: Implementing and extending Deep Learning with Types</span> 
@@ -630,39 +736,7 @@ its core abstractions, and explore strange new worlds it
 enables.</p></div>
     </details>
   </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">Compositionality of Lyapunov functions via assume-guarantee reasoning</span> 
-        David Jaz Myers and Matteo Capucci [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_62.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">
-        <p>Assume-guarantee reasoning is a technique for compositional
-model checking in which system specifications are checked
-under certain assumptions on system parameters or inputs,
-and provide guarantees on observations of system state.
- We present a categorical framework for assume-guarantee
- reasoning for safety problems by viewing systems as
- \emph{lenses}, following our earlier work on the
- compositionality of generalized Moore machines.
- Generalized Moore machines include ordinary Moore
- machines, partially observable Markov (decision)
- processes, and systems of parameterized ODEs (control
- systems); our framework gives assume-guarantee reasoning
- specially adapted to each of these cases. In particular,
- we give a novel formulation of assume-guarantee reasoning
- for \emph{(local) input-to-state stability} ((L)ISS)
- Lyapunov functions on systems of parameterized ODEs.</p>
 
- <p>Our framework is categorically natural and
- straightforwardly compositional. A flavor of generalized
- Moore machine is determined by a \emph{tangency}: a
- fibration with a section. We show that symmetric monoidal
- loose right modules of assume-guarantee certified
- generalized Moore machines over symmetric monoidal double
- categories of certified wiring diagrams can be constructed
- 2-functorially from fibrations internal to the 2-category
- of tangencies.</p></div>
-    </details>
-  </li>
   <li>
     <details>
       <summary><span class="paper-title">Multilayer Category-Theoretic Knowledge Representation of Regulatory Documents</span> 
@@ -796,28 +870,6 @@ Artificial Life 2025, https://doi.org/10.1162/ISAL.a.874 </p> </div>
   </li>
   <li>
     <details>
-      <summary><span class="paper-title">Information Leakage in Resource Theories</span> 
-        Niels Voorneveld, Alessandro Di Giorgio and Pawel Sobocinski 
-        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_72.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">We introduce abelian framed bicategories, which are
-particular framed bicategories that are locally abelian,
-and show that they are suitable for developing homology and
-cohomology theories for directed structures. This means in
-particular that similar exact sequences as the relative
-homology and Mayer–Vietoris long exact sequences can be
-shown to hold. Also, for closed monoidal abelian framed
-bicategories, Künneth theorem holds as well. Finally, we
-prove embedding theorems similar to the Gabriel and
-Freyd–Mitchell theorems, for particular abelian framed
-bicategories, allowing to see those as bicategories of
-bimodules over algebras. This naturally links to the
-original motivation of this work, which was to generalize
-directed homology developed in the abelian framed
-bicategory of bimodules over (path) algebras. Arxiv link: https://arxiv.org/abs/2602.04425</div>
-    </details>
-  </li>
-  <li>
-    <details>
       <summary><span class="paper-title">Quantum Coherence Spaces Revisited: 
         A von Neumann (Co)Algebraic Approach (extended abstract)</span> 
         Thea Li and Vladimir Zamdzhiev 
@@ -841,25 +893,7 @@ https://arxiv.org/abs/2601.15832 for extended version with
 appendices.</div>
     </details>
   </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">Measuring Univalence and Its Failure in Homotopy Type 
-        Theory via Synthetic Cohomology</span> Yoshihiro Maruyama and Ryo Nasu 
-        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_76.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">We study how a chosen universe or type family in homotopy
-type theory can (fail to) satisfy univalence by means of
-synthetic cohomology. For each type family, we define a
-defect space from the map that compares equality of codes
-with equivalence of the corresponding types, and we use
-synthetic cohomology of this space to build invariants.
-These invariants vanish for univalent families, completely
-detect triviality in truncated defect spaces, and can be
-computed in several concrete examples. We show that the
-construction extends to Tarski universes and captures
-information that ordinary cohomology of the fibers does not
-detect.</div>
-    </details>
-  </li>
+
   <li>
     <details>
       <summary><span class="paper-title">Algorithmic and Extremal Obstructions Through the 
@@ -1231,14 +1265,6 @@ across distinct stimulus response pairings. The
 contribution is therefore a categorical and executable
 account of multiscale translation, verification, and
 fabrication for materially embodied design.</p></div>
-    </details>
-  </li>
-  <li>
-    <details>
-      <summary><span class="paper-title">Unitary, inner product, and dagger categories</span> 
-        Robin Cockett, Durgesh Kumar and Priyaa Varshinee Srinivasan 
-        [<a href='https://actconf2026.github.io/papers/ACT_2026_paper_97.pdf'>pdf</a>]</summary>
-      <div class="paper-abstract">This article provides an alternate characterization of dagger categories, which are central to the study of categorical quantum mechanics, in terms of inner product categories. An inner product category is an "achiral involutive" category with an inner product combinator. Inner product categories are, in turn, precisely the same as unitary categories, which are a weaker form of dagger categories. In unitary categories, there is an isomorphism between an object and its dagger, instead of the identity function as in the case of dagger categories. Every unitary category is equipped with a global inner product structure, which allows one to strictify the involutive structure on the unitary category to obtain a dagger category, making unitary categories 2-categorically equivalent to dagger categories.  By regarding the inner product as an abstract metric on an (achiral) involutive category, one can define metric-preserving maps (isometries) in inner product categories, and also develop other notions of special maps --- unitary, Hermitian, positive, and normal maps --- in this setting.</div>
     </details>
   </li>
 </ul>
